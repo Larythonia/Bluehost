@@ -1,0 +1,161 @@
+/* default setting */
+
+body {
+box-sizing: border-box;
+margin: 0;
+height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h2,h3 {
+    margin-left: 1.2rem;
+    padding: 8px 0;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 1.1rem;
+    color: #1a2a3a;
+    margin-left: 1.2rem;
+}
+
+ul {
+    color: blue;
+    margin: 1rem 2.4rem;
+}
+
+.heading {
+    letter-spacing: 2px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 350;
+    font-size: 0.9rem;
+    padding: 1.8rem 0;
+    color: #1a1a1a; 
+}
+
+.pone {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 1.1;
+    font-size: 1.1rem;
+    color: #1a2a3a;
+    padding-bottom: 1.8rem;;
+}
+
+.nav-bar {
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    align-items: center;
+    padding-inline: 1.5rem;
+   
+}
+
+.one {
+  background-color: #ccedff;
+}
+
+.hero {
+    margin-left: 1.2rem;
+}
+
+.hero > h2 {
+    font-family:"montserrat-black";
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 0.9;
+    padding-bottom: 1.0rem;
+}
+
+.hero > button {
+    background-color: rgb(28, 152, 235);
+    padding: 12px ;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 0;
+    margin-bottom: 1.2rem;
+}
+
+.lady {
+    margin-left: 1.2rem;
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.two {
+    background-color:cornsilk; 
+    color: rgb(28, 152, 235);
+    padding: 1.8rem 0; 
+}
+
+.blueblack {
+    margin: 1.2rem;
+    width: 80px;
+    padding-top: 8px;
+}
+
+.three {
+    background-color: white;
+}
+
+.facecap{
+    width: 200px;
+    margin: 1rem 5rem;
+}
+
+.footer {
+    background-color: rgb(28, 152, 235)
+}
+
+.head {
+    color: white;
+    letter-spacing: 2px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 350;
+    font-size: 0.9rem;
+  margin-left: 1.2rem;
+    padding: 1.8rem 0;
+}
+
+.remark {
+    color: white;
+    font-size: 2rem;
+}
+
+.tips {
+    color: white;
+}
+ .button {
+    background-color: cornsilk;
+    padding: 2rem 0;
+    text-align: center;
+ }
+
+ .footer-img {
+    margin: 1.2rem;
+ }
+ 
+ .btn {
+    background-color: black;
+    background-image: linear-gradient(blue, #008081, blue );
+    border: 0;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0.8rem;
+
+ }
+
+.btn :hover {
+    background-color: aqua;
+}
+
+
